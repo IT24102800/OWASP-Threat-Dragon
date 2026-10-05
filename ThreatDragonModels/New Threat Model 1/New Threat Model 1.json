@@ -1,0 +1,18 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0",
+  "released_at": "2026-10-06",
+  "summary": {
+    "title": "New Threat Model 1",
+    "owner": "Rajapaksha K.R.D.A.P.M.",
+    "description": "See below ↓",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "Rajapaksha K.R.D.A.P.M.",
+    "threatTop": 0
+  }
+}
