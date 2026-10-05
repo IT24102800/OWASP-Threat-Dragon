@@ -5,7 +5,7 @@
   "summary": {
     "title": "New Threat Model 1",
     "owner": "Rajapaksha K.R.D.A.P.M.",
-    "description": "See below ↓",
+    "description": "A university Online Student Portal where students sign in to view personal information and examination results, and lecturers sign in to update examination results. The Web Application sends credentials to an Authentication Service, reads and updates records in a Student Database, and uses an External Email Service to send password-reset emails. The portal is accessed through the Internet. The database contains sensitive personal and academic information.",
     "id": 0
   },
   "detail": {
@@ -18,10 +18,11 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": []
+        "cells": [],
+        "description": ""
       }
     ],
-    "diagramTop": 2,
+    "diagramTop": 4,
     "reviewer": "Rajapaksha K.R.D.A.P.M.",
     "threatTop": 0
   }
