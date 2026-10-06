@@ -205,6 +205,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -288,7 +289,6 @@
               ]
             },
             "id": "a8deb8fb-8b51-432c-8e4b-a16b9da26d47",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Process",
@@ -344,6 +344,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -427,7 +428,6 @@
               ]
             },
             "id": "aa45cc02-0df0-4662-96e1-871c532bad30",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Process",
@@ -555,7 +555,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "HTTP",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -569,7 +569,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "HTTP"
             ],
             "id": "1b54e3e3-77eb-4bc1-b02b-8e30afbaa030",
             "source": {
@@ -579,7 +579,8 @@
             "target": {
               "cell": "a8deb8fb-8b51-432c-8e4b-a16b9da26d47",
               "port": "c4c72c9b-a900-4097-9eea-0bc84eb3abd6"
-            }
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -602,6 +603,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -685,7 +687,6 @@
               ]
             },
             "id": "b0e807e9-b33e-4540-961b-40e44fcdd80c",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Store",
