@@ -1,0 +1,29 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0",
+  "released_at": "2026-10-06",
+  "summary": {
+    "title": "Online Student Portal",
+    "owner": "Rajapaksha K.R.D.A.P.M.",
+    "description": "A university Online Student Portal where students sign in to view personal information and examination results, and lecturers sign in to update examination results. The Web Application sends credentials to an Authentication Service, reads and updates records in a Student Database, and uses an External Email Service to send password-reset emails. The portal is accessed through the Internet. The database contains sensitive personal and academic information.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "1st Model"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Rajapaksha K.R.D.A.P.M.",
+    "threatTop": 0
+  }
+}
